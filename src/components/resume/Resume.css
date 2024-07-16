@@ -1,0 +1,50 @@
+.resume_container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.875rem;
+}
+
+.timeline {
+    padding: 1.875rem;
+    border-radius: var(--border-radius);
+    position: relative;
+}
+
+.timeline_item {
+    position: relative;
+    padding-left: 3.125rem;
+    padding-bottom: 3.125rem;
+}
+
+.timeline_item:last-child {
+    padding-bottom: 0;
+}
+
+.timeline_item::before {
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-color: #FF5D73;
+    position: absolute;
+    left: .25rem;
+    top: 0;
+}
+
+.timeline .icon-graduation{
+    position: absolute;
+    left: -0.3rem;
+    top: 0;
+    font-size: 20px;
+    color: #FF5D73;
+    background-color: #f4f4f9;
+    padding: 0.4375rem 0;
+}
+
+.timeline_date {
+    color: #8b88b1;
+    font-size: small;
+}
+
+.timeline_title {
+    font-size: medium;
+    margin: 0.5rem 0;
+}

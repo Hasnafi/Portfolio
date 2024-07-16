@@ -1,0 +1,30 @@
+.about_container {
+    grid-template-columns: 3fr 9fr;
+    column-gap: 20px;
+}
+
+.about_data {
+    padding: 1.875rem;
+    background-color: white;
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    align-items: flex-start;
+    position: relative;
+}
+
+.about_data::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid white;
+    position: absolute;
+    left: -0.93rem;
+    top: 20%;
+}
+
+.about_description {
+    text-align: justify;
+    margin-bottom: 4rem;
+}
