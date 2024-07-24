@@ -20,7 +20,7 @@ const About = () => {
             I am constantly seeking new opportunities to deepen my skills and contribute to innovative 
             projects in these exciting domains.
             </p>
-            <a href='https://drive.google.com/file/d/17iPPJrr5zWHOyRo7rEk1wPbD3oVlEdfe/view' className='btn'>Download CV</a>
+            <a href='https://drive.google.com/file/d/1x8JyNwm6oc_FwYi3bQ7oJomGhl1fxzb8/view' className='btn'>Download CV</a>
           </div>
         </div>
       </div>
